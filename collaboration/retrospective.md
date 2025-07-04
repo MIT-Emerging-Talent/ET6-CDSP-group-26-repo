@@ -83,3 +83,28 @@ documentation, and reproducibility — all of which were new to me.
 skills so I can help with scripts and data cleaning. This experience showed me
 how powerful data can be when used thoughtfully to tell real stories — especially
 ones that reflect our personal and shared struggles.
+
+**Name:** Nagham al baba
+
+- In Milestone 2, I learned how to search for relevant datasets using data tools
+and how to clean and prepare data for analysis. I discovered that real-world data
+is often messy and incomplete, and that combining multiple sources can be more
+effective than relying on one.
+
+This experience also taught me how to think critically about data quality and
+bias. Next time, I want to get involved earlier in the process and improve my
+technical skills.
+
+## 🔴 Stop
+
+- Assuming one dataset would answer everything
+- Waiting too long to ask for help
+
+## 🟢 Continue
+
+- Exploring multiple data sources
+- Collaborating with teammates
+
+## 🟡 Start
+
+- Taking initiative earlier
