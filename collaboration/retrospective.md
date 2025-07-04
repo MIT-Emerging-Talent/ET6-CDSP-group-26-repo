@@ -68,3 +68,18 @@ incomplete metadata, and the difficulty of finding existing datasets that truly
 answer your research question  
 - Next time, I’ll push earlier for clearer roles and stronger accountability
 within the group
+
+**Name:** Raghad Abdalrahim
+
+- In this milestone, I learned what a dataset truly is and how to search for and
+document useful data. At first, I expected to find one perfect dataset — but I
+quickly realized that real-world data work often involves combining sources like
+social media, protests, and trends.
+
+- I also learned how to evaluate data quality and think about things like bias,
+documentation, and reproducibility — all of which were new to me.
+
+- Next time, I want to contribute earlier in the process and improve my technical
+skills so I can help with scripts and data cleaning. This experience showed me
+how powerful data can be when used thoughtfully to tell real stories — especially
+ones that reflect our personal and shared struggles.
