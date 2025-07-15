@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import os
 
 df = pd.read_csv("2_data_preparation/survey_data/clean_survey_responses.csv")
 
@@ -51,7 +52,7 @@ plt.pie(
 )
 plt.title("Percentage Distribution of Emotional Responses")
 plt.show()
-import os
+
 
 # Create directory if it doesn't exist
 os.makedirs("1_datasets", exist_ok=True)
