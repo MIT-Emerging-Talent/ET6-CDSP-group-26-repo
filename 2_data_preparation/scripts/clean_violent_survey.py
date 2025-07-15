@@ -1,11 +1,12 @@
+import os
+import pandas as pd
+
 """
 This module loads a survey CSV file, cleans and renames columns,
 removes empty rows, trims whitespace, and saves the cleaned data
 to a specified directory.
 """
 
-import os
-import pandas as pd
 
 # Constants (use UPPER_CASE for constants)
 INPUT_PATH = r"2_data_preparation\violent_content_survey.csv"
