@@ -23,14 +23,11 @@ sns.countplot(
     palette="viridis",
 )
 
-plt.title("Emotional Response to Violent Content", fontsize=14, weight="bold")
-plt.xlabel("Number of Responses", fontsize=12)
-plt.ylabel("")
+plt.title("Emotional Response to Violent Content")
+plt.xlabel("Number of Responses")
+plt.ylabel("Emotion")
 plt.tight_layout()
-plt.subplots_adjust(left=0.3)
-plt.savefig("1_datasets/emotional_response_barplot.png", dpi=300)
-plt.close()
-
+plt.show()
 # Calculate the counts and percentages
 counts = df[
     "How do you usually feel when you see violent or disturbing content online?"
@@ -56,9 +53,24 @@ plt.pie(
 plt.title("Percentage Distribution of Emotional Responses")
 plt.show()
 
+
 # Create directory if it doesn't exist
 os.makedirs("1_datasets", exist_ok=True)
 
+# Save bar plot
+plt.figure(figsize=(10, 6))
+sns.countplot(
+    data=df,
+    y="How do you usually feel when you see violent or disturbing content online?",
+    order=counts.index,
+    palette="viridis",
+)
+plt.title("Emotional Response to Violent Content")
+plt.xlabel("Number of Responses")
+plt.ylabel("Emotion")
+plt.tight_layout()
+plt.savefig("1_datasets/emotional_response_barplot.png")
+plt.close()
 
 # Save pie chart
 plt.figure(figsize=(8, 8))
