@@ -5,7 +5,6 @@
 - Relying on team members to complete documentation without setting clear
 expectations or deadlines  
 - Delaying or skipping weekly meetings  
-- Waiting for a miracle that inactive teammates would suddenly get active  
 
 ## 🟢 Continue Doing
 
